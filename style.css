@@ -2,7 +2,12 @@ head{
     background-color: rgb(3, 10, 70);
 }
 body{
-    background-color: rgb(3, 10, 70);
+    background-image: url(img/lion.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: black;
+
 }
 #carouselExampleIndicators{
     margin: auto;
@@ -23,35 +28,36 @@ body{
     grid-gap: 20px 0px;
     align-items: center;
     justify-items: center;
-
-
+    color: blue;
 }
 #nikeb{
-    background-image:url(img/nike/logonike.png);
-    background-position:center;
-    background-repeat: no-repeat;
+    background-image:url(img/lion.png);
     background-attachment: fixed;
-
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: black;
 }
 #adidasb{
-    background-image:url(img/adidas/logoadidas.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image:url(img/lion.png);
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: black;
 
 }
 #pumab{
-    background-image:url(img/puma/logopuma.png);
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image:url(img/lion.png);
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: black;
 }
 #f{
     width: 250px;
 }
 #titsec{
     color: white;
-    text-align: center;
+    text-align: center  ;
 }
 #nv{ 
     background-color: white;
@@ -94,4 +100,11 @@ body{
     color: white;
     text-align: center;
     text-decoration: underline;
+}
+#logo{
+    left:44.5%;
+    position:fixed;
+    height:12%;
+    top: -2.5%;
+
 }
