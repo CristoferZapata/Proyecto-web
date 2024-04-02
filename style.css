@@ -9,9 +9,10 @@ body{
     background-color: black;
 
 }
-#carouselExampleIndicators{
+#carouselExampleDark{
     margin: auto;
-    width :30%;
+    width : 20%;
+
     text-align: center;
 }
 #secd{
@@ -28,7 +29,6 @@ body{
     grid-gap: 20px 0px;
     align-items: center;
     justify-items: center;
-    color: blue;
 }
 #nikeb{
     background-image:url(img/lion.png);
@@ -54,6 +54,8 @@ body{
 }
 #f{
     width: 250px;
+    border-radius: 80px;
+    border: 2px solid dimgrey;
 }
 #titsec{
     color: white;
@@ -69,6 +71,7 @@ body{
 #loremlk{/* Texto lorem de apartado lionkicks */
     text-align: center;
     color: white;
+
 }
 #flk{/* footer lionkicks(contato) */
     text-align:center;
@@ -79,7 +82,7 @@ body{
     grid-template-rows: auto;
     grid-gap: 50px 0px;
     align-items: center;
-    justify-items: center;
+    justify-items: center; 
 }
 #lcont{
     color: white;
@@ -95,6 +98,8 @@ body{
 #descrZ{
     color: white;
     text-align: center;
+    margin: auto;
+    width: 40%;
 }
 #contn2{
     color: white;
@@ -102,9 +107,18 @@ body{
     text-decoration: underline;
 }
 #logo{
-    left:44.5%;
+    left:46.9%;
     position:fixed;
     height:12%;
     top: -2.5%;
-
+}
+a:hover{
+    opacity: 0.8;
+}
+#ProxE{
+    color: white;
+}
+#ProxEIT{
+    color: white;
+    text-decoration: underline;
 }
