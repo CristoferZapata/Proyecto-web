@@ -93,7 +93,7 @@ body{
 }
 #contn{
     text-align: center  ;
-    margin-top:360px;
+    margin-top:340px;
 }
 #finpage{
     color: white;
@@ -110,7 +110,7 @@ body{
     text-decoration: underline;
 }
 #logo{
-    width: 4%;
+    width: 5.3%;
 }
 a:hover{
     opacity: 0.8;
@@ -121,4 +121,7 @@ a:hover{
 #ProxEIT{
     color: white;
     text-decoration: underline;
+}
+#ex{
+    width: 300px;
 }
