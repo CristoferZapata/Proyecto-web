@@ -71,6 +71,8 @@ body{
 #loremlk{/* Texto lorem de apartado lionkicks */
     text-align: center;
     color: white;
+    margin: auto;
+    width: 55%;
 
 }
 #flk{/* footer lionkicks(contato) */
@@ -91,7 +93,7 @@ body{
 }
 #contn{
     text-align: center  ;
-    margin-top:430px;
+    margin-top:360px;
 }
 #finpage{
     color: white;
@@ -108,10 +110,7 @@ body{
     text-decoration: underline;
 }
 #logo{
-    left:46.9%;
-    position:fixed;
-    height:12%;
-    top: -2.5%;
+    width: 4%;
 }
 a:hover{
     opacity: 0.8;
