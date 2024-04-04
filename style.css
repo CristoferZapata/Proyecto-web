@@ -1,6 +1,3 @@
-head{
-    background-color: rgb(3, 10, 70);
-}
 body{
     background-image: url(img/lion.png);
     background-attachment: fixed;
@@ -9,6 +6,11 @@ body{
     background-color: black;
 
 }
+.container{
+    display: flex;
+    justify-content: center;
+}
+
 #carouselExampleDark{
     margin: auto;
     width : 20%;
@@ -25,17 +27,36 @@ body{
 .grid-container {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr); 
     grid-gap: 20px 0px;
     align-items: center;
     justify-items: center;
+    width: 1000px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center ;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.container-card{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 #nikeb{
-    background-image:url(img/lion.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: right;
-    background-color: black;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 20px 0px;
+    align-items: center;
+    justify-items: center;
+    width: 1000px;
 }
 #adidasb{
     background-image:url(img/lion.png);
@@ -93,7 +114,7 @@ body{
 }
 #contn{
     text-align: center  ;
-    margin-top:340px;
+    margin-top:40px;
 }
 #finpage{
     color: white;
@@ -110,7 +131,9 @@ body{
     text-decoration: underline;
 }
 #logo{
-    width: 5.3%;
+    width: 100%;
+    justify-content: center;
+
 }
 a:hover{
     opacity: 0.8;
@@ -125,3 +148,38 @@ a:hover{
 #ex{
     width: 300px;
 }
+@media(max-width:1060px){
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); 
+
+    }
+    #nikeb{
+        grid-template-columns: repeat(2, 1fr); 
+        width:500px;
+    }
+    .container{
+        width:500px;
+    }
+}
+.grid-item{
+    color:white;
+    text-align: center;
+}
+.card{
+    align-items: center;
+    justify-items: center;
+    background-attachment: fixed;
+}
+.container-fluid{
+    justify-content:space-between ;
+}
+.item{
+    width:80px;
+    height: 80px;
+    display:flex;
+    align-items: center;
+}
+.i3{
+width: auto;
+}
+
