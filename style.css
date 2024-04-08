@@ -150,9 +150,6 @@ a:hover{
     color: white;
     text-decoration: underline;
 }
-#ex{
-    width: 500px;
-}
 @media(max-width:1060px){
     .grid-container {
         grid-template-columns: repeat(2, 1fr); 
@@ -191,4 +188,7 @@ width: auto;
     display: flex;   
     align-items: center;
 }
-
+.carousel-item img{
+    height: 60vh;
+    object-fit: cover;
+}
